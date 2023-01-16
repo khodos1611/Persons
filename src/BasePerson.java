@@ -25,7 +25,7 @@ abstract class BasePerson {
 
     public void setYearOfBirth(int yearOfBirth) {
         this.yearOfBirth = yearOfBirth;
-        this.age = LocalDate.now().getYear() - yearOfBirth-1;
+        this.age = LocalDate.now().getYear() - yearOfBirth;
     }
 
     public void setMail(String mail) {
