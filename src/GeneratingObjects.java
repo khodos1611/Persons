@@ -36,7 +36,7 @@ public class GeneratingObjects {
             for (int i = 1; i <= data.length; i++) {
                 switch (i){
                     case 1 : {
-                        String number = "";
+                        String number = "+";
                         for (int j = 0; j < 9; j++) {
                             number += GenerateInt(0,9);
                         }

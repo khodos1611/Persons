@@ -13,6 +13,10 @@ public class MainApp {
         persons[1].weight += 5;
         persons[1].printAccountInfo();
 
+        persons[2].stepsCount += 500;
+        persons[2].weight += 3;
+        persons[2].printAccountInfo();
+
         persons[3].surname = "Bing";
         persons[3].printAccountInfo();
 
